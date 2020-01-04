@@ -1,6 +1,6 @@
-# React Starter w/ Express Server, using Parcel
+# Test project for an intermediary between Smartsheets and Plannign Center
 
-This is a project template that can be used to quickly start a react project. It has minimal dependencies and has a server route that you can use to proxy requests without exposing your api keys.
+This is a Node/Express/React build for testing an intermediary between smartsheets and planning center. 
 
 ## Getting Started
 
@@ -19,13 +19,8 @@ Start the server
 $ npm run start
 ```
 
-## Use case
+## Current State
 
-When you create a request to a third party API from the server side (to protect your API key/credentials) you should create a `.env` file with your key.
+It's currently just making test calls to the API's for smartsheets and PC wired to buttons on the front end. 
 
-This will ensure that your private credentials do not get committed to git and will not be exposed to others on Github.
-
-You will also need to modify the `server/server.js` file to make your call to your api url and return back your data to your front end.
-
-An example of a request to a mock server is shown in the file. You will replace this with the API you want data from.
 
