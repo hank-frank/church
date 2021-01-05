@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/SanDiegoCodeSchool/react-parcel#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-loader": "^8.0.6",
     "basic-auth": "^2.0.1",
     "components": "^0.1.0",
